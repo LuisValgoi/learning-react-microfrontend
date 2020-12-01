@@ -1,5 +1,5 @@
 # Objective
-This project was created to better understand the usage of Single SPA helper when architecting microfrontends.
+This project was created to better understand the usage of Single SPA helper when architecting microfrontends following [this](https://www.youtube.com/watch?v=who7iqEIpwU) tutorial.
 
 # Architecture Overview
 Having the orchestration files at the root of our project, we demand that our `packages` inner folder have a `index.js` file exposign `bootstrap`, `mount` and `unmount` methods. 
