@@ -2,13 +2,13 @@
 This project was created to better understand the usage of Single SPA helper when architecting microfrontends following [this](https://www.youtube.com/watch?v=who7iqEIpwU) tutorial.
 
 # Architecture Overview
-Having the orchestration files at the root of our project, we demand that our `packages` inner folder have a `index.js` file exposign `bootstrap`, `mount` and `unmount` methods. 
+Having the orchestration files at the root of our project, we demand that our `packages` inner folder have a `index.js` file exposign `bootstrap`, `mount` and `unmount` methods.
 
-On this example, I have created two simple applicationS using two different stacks only for demostration purpose when accessing the proper routes.
-
-Keep in mind that SSPA Router, its source code based.
+Keep in mind that SSPA Router orchestrator, its source code based.
 
 It makes the routing management to a specific micro frontend at the client runtime (browser).
+
+On this example, I have created two simple applicationS using two different stacks only for demostration purpose when accessing the proper routes.
 
 # Routing & Running
 Once you have runned through `npm start`, a white page will be promped.
