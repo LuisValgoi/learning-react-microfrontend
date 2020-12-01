@@ -3,16 +3,17 @@ This project was created to better understand the usage of Single SPA helper whe
 
 # Architecture Overview
 Having the orchestration files at the root of our project, we demand that our `packages` inner folder have a `index.js` file exposign `bootstrap`, `mount` and `unmount` methods. 
-On this example, I have created two very simple application on two different stacks only for demostration purpose when accessing the correct routes
+
+On this example, I have created two very simple application on two different stacks only for demostration purpose when accessing the proper routes.
 
 # Routing & Running
 Once you have runned through `npm start`, a white page will be promped.
 
 After that, you are able to access `.../route` and `.../todo-list` in the Browsers Url to check the different projects.
 
-
 # Webpack Work
-Since webpacks does the transpilation job for us, we need to explicitely tell to it what kind of `loader` it demands according to the `file type`,
+Since webpacks does the transpilation job for us, we need:
+- to explicitely tell to it what kind of `loader` it demands according to the `file type`,
 
 That is why we have the `webpack.config.js` file.
 
