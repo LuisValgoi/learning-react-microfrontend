@@ -4,7 +4,7 @@ This project was created to better understand the usage of Single SPA helper whe
 # Architecture Overview
 Having the orchestration files at the root of our project, we demand that our `packages` inner folder have a `index.js` file exposign `bootstrap`, `mount` and `unmount` methods. 
 
-On this example, I have created two very simple application on two different stacks only for demostration purpose when accessing the proper routes.
+On this example, I have created two simple applicationS using two different stacks only for demostration purpose when accessing the proper routes.
 
 # Routing & Running
 Once you have runned through `npm start`, a white page will be promped.
