@@ -6,6 +6,10 @@ Having the orchestration files at the root of our project, we demand that our `p
 
 On this example, I have created two simple applicationS using two different stacks only for demostration purpose when accessing the proper routes.
 
+Keep in mind that SSPA Router, its source code based.
+
+It makes the routing management to a specific micro frontend at the client runtime (browser).
+
 # Routing & Running
 Once you have runned through `npm start`, a white page will be promped.
 
